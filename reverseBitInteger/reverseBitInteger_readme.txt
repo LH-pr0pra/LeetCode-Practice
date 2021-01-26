@@ -1,5 +1,7 @@
-Given a 32 bit unsigned integer in binary form, reverse it and return the new unsigned integer.
-Note that Java doesn't have an unsigned int storage, so you'll have to build that.
+Given a 32 bit unsigned integer in binary form,
+ reverse it and return the new unsigned integer.
+Note that Java doesn't have an unsigned int storage,
+ so you'll have to build that.
 
 The input will actually be an integer given in 2's complement notation.
 
