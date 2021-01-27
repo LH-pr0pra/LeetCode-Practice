@@ -37,11 +37,4 @@ the values in order[]
 This method failed because with large input arrays the sorting algorithm
  becomes bogged down and takes too long
 
-Notes on _
-.java functions as follows:
-1. Creates val2[n] array where each value [i] = aliceValues[i] + bobValues[i]
-2. Takes turns from Alice to Bob
-    a. with each step, find the largest value in val2[]
-    b. at that index, take the sum for Alice or Bob with their own points
-    c. set that index in val2[] to 0
-3. Return the winner/draw
+!still incomplete; will come find better method in future
