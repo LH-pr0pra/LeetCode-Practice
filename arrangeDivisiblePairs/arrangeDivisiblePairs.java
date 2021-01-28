@@ -1,5 +1,10 @@
 class Solution {
     public boolean canArrange(int[] arr, int k) {
+        //Use modulo arithmetic to determine the remainders of each item divided by k
+            //pair up the remainders that add up to k; if they're unequal, it's false
+            //check for numbers that are multiples of k; if that # isn't even, it's false
+            //if k is even check for the center where k/2 is the remainder; if this is odd, it's false
+            //else return true
         //create array (length k; equivalent to indexes)
         int[] tracker = new int[k];
         Arrays.fill(tracker,0);
