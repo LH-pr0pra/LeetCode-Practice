@@ -1,5 +1,6 @@
 class Solution {
     public void rotate(int[][] matrix) {
+        //rotates n by n matrix 90 degrees clockwise
         int swapNum;
         for (int m = 0; m < matrix.length; m++) {
             for (int n = m; n < matrix.length; n++) {
